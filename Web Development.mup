@@ -11,26 +11,16 @@
           "title": "Webservices/API's/Restful Web Services",
           "id": 3
         },
-        "2": {
-          "title": "FTP",
-          "id": 4
-        },
-        "3": {
-          "title": "SSH",
-          "id": 5
-        },
-        "4": {
-          "title": "Basic Terminal Usage",
-          "id": 7
-        },
         "5": {
           "title": "Github",
           "id": 8
         }
       },
       "attr": {
-        "collapsed": true,
-        "style": {}
+        "style": {
+          "background": "#FFCC00"
+        },
+        "progress": "in-progress"
       }
     },
     "2": {
@@ -39,7 +29,13 @@
       "ideas": {
         "1": {
           "title": "HTML",
-          "id": 20
+          "id": 20,
+          "attr": {
+            "style": {
+              "background": "#FFCC00"
+            },
+            "progress": "in-progress"
+          }
         },
         "2": {
           "title": "CSS",
@@ -85,8 +81,8 @@
                 }
               },
               "attr": {
-                "collapsed": true,
-                "style": {}
+                "style": {},
+                "collapsed": true
               }
             },
             "2": {
@@ -99,16 +95,30 @@
                 },
                 "2": {
                   "title": "CSS Frameworks: Bootstrap / Foundation",
-                  "id": 36
+                  "id": 36,
+                  "attr": {
+                    "style": {
+                      "background": "#FFCC00"
+                    },
+                    "progress": "in-progress"
+                  }
                 },
                 "3": {
                   "title": "Responsive Design with CSS",
-                  "id": 37
+                  "id": 37,
+                  "attr": {
+                    "style": {
+                      "background": "#FFCC00"
+                    },
+                    "progress": "in-progress"
+                  }
                 }
               },
               "attr": {
-                "collapsed": true,
-                "style": {}
+                "style": {
+                  "background": "#FFCC00"
+                },
+                "progress": "in-progress"
               }
             },
             "3": {
@@ -141,16 +151,67 @@
                 }
               },
               "attr": {
-                "collapsed": true,
-                "style": {}
+                "style": {},
+                "collapsed": true
               }
             }
+          },
+          "attr": {
+            "style": {
+              "background": "#FFCC00"
+            },
+            "progress": "in-progress"
           }
         }
       },
       "attr": {
-        "collapsed": true,
-        "style": {}
+        "style": {
+          "background": "#FFCC00"
+        },
+        "progress": "in-progress"
+      }
+    },
+    "3": {
+      "title": "Completed",
+      "id": 89,
+      "ideas": {
+        "1": {
+          "title": "FTP",
+          "attr": {
+            "style": {
+              "background": "#00CC00"
+            },
+            "progress": "passing"
+          },
+          "id": 90
+        },
+        "2": {
+          "title": "Basic Terminal Usage",
+          "attr": {
+            "style": {
+              "background": "#00CC00"
+            },
+            "progress": "passing"
+          },
+          "id": 91
+        },
+        "3": {
+          "title": "SSH",
+          "attr": {
+            "style": {
+              "background": "#00CC00"
+            },
+            "progress": "passing"
+          },
+          "id": 92
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00CC00"
+        },
+        "progress": "passing",
+        "collapsed": true
       }
     },
     "-1": {
@@ -171,8 +232,8 @@
         }
       },
       "attr": {
-        "collapsed": true,
-        "style": {}
+        "style": {},
+        "collapsed": true
       }
     },
     "-2": {
@@ -201,7 +262,13 @@
         },
         "6": {
           "title": "Ruby On Rails (Ruby)",
-          "id": 51
+          "id": 51,
+          "attr": {
+            "style": {
+              "background": "#FFCC00"
+            },
+            "progress": "in-progress"
+          }
         },
         "7": {
           "title": "Databases",
@@ -247,8 +314,8 @@
             }
           },
           "attr": {
-            "collapsed": true,
-            "style": {}
+            "style": {},
+            "collapsed": true
           }
         },
         "8": {
@@ -273,8 +340,8 @@
             }
           },
           "attr": {
-            "collapsed": true,
-            "style": {}
+            "style": {},
+            "collapsed": true
           }
         },
         "9": {
@@ -307,8 +374,8 @@
                 }
               },
               "attr": {
-                "collapsed": true,
-                "style": {}
+                "style": {},
+                "collapsed": true
               }
             },
             "2": {
@@ -337,7 +404,6 @@
                 }
               },
               "attr": {
-                "collapsed": true,
                 "style": {}
               }
             },
@@ -360,22 +426,71 @@
                 }
               },
               "attr": {
-                "collapsed": true,
                 "style": {}
               }
             }
           },
           "attr": {
-            "collapsed": true,
-            "style": {}
+            "style": {},
+            "collapsed": true
           }
         }
       },
       "attr": {
-        "collapsed": true,
-        "style": {}
+        "style": {
+          "background": "#FFCC00"
+        },
+        "progress": "in-progress"
       }
     }
   },
-  "links": []
+  "links": [],
+  "attr": {
+    "progress-statuses": {
+      "": {
+        "description": "Not Started",
+        "priority": 1,
+        "style": {
+          "background": false
+        }
+      },
+      "passing": {
+        "description": "Done",
+        "style": {
+          "background": "#00CC00"
+        }
+      },
+      "under-review": {
+        "description": "Under review",
+        "style": {
+          "background": "#00CCFF"
+        }
+      },
+      "in-progress": {
+        "description": "In Progress",
+        "priority": 3,
+        "style": {
+          "background": "#FFCC00"
+        }
+      },
+      "blocked": {
+        "description": "Blocked",
+        "priority": 4,
+        "style": {
+          "background": "#990033"
+        }
+      },
+      "parked": {
+        "description": "Parked",
+        "priority": 2,
+        "style": {
+          "background": "#FF3300"
+        }
+      }
+    },
+    "style": {
+      "background": "#FFCC00"
+    },
+    "progress": "in-progress"
+  }
 }
