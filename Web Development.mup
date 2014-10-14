@@ -1,0 +1,381 @@
+{
+  "title": "Web Development",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "No Matter Which Route You Take",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Webservices/API's/Restful Web Services",
+          "id": 3
+        },
+        "2": {
+          "title": "FTP",
+          "id": 4
+        },
+        "3": {
+          "title": "SSH",
+          "id": 5
+        },
+        "4": {
+          "title": "Basic Terminal Usage",
+          "id": 7
+        },
+        "5": {
+          "title": "Github",
+          "id": 8
+        }
+      },
+      "attr": {
+        "collapsed": true,
+        "style": {}
+      }
+    },
+    "2": {
+      "title": "Basic Front End",
+      "id": 19,
+      "ideas": {
+        "1": {
+          "title": "HTML",
+          "id": 20
+        },
+        "2": {
+          "title": "CSS",
+          "id": 21
+        },
+        "3": {
+          "title": "Javascript",
+          "id": 22
+        },
+        "4": {
+          "title": "Front end developer",
+          "id": 23,
+          "ideas": {
+            "1": {
+              "title": "MV* Javascript Frameworks",
+              "id": 24,
+              "ideas": {
+                "1": {
+                  "title": "Knockout.js",
+                  "id": 28
+                },
+                "2": {
+                  "title": "Backbone.js",
+                  "id": 29
+                },
+                "3": {
+                  "title": "Angular.js",
+                  "id": 30
+                },
+                "4": {
+                  "title": "Unit Testing",
+                  "id": 31,
+                  "ideas": {
+                    "1": {
+                      "title": "Jasmine",
+                      "id": 32
+                    },
+                    "2": {
+                      "title": "Karma",
+                      "id": 34
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "CSS Tools",
+              "id": 25,
+              "ideas": {
+                "1": {
+                  "title": "Precompilers: SASS / LESS / Stylus",
+                  "id": 35
+                },
+                "2": {
+                  "title": "CSS Frameworks: Bootstrap / Foundation",
+                  "id": 36
+                },
+                "3": {
+                  "title": "Responsive Design with CSS",
+                  "id": 37
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "Front End Build Tools",
+              "id": 27,
+              "ideas": {
+                "1": {
+                  "title": "Bower/package management",
+                  "id": 38
+                },
+                "2": {
+                  "title": "Yeoman.io",
+                  "id": 39
+                },
+                "3": {
+                  "title": "Grunt",
+                  "id": 40
+                },
+                "4": {
+                  "title": "Gulp",
+                  "id": 41
+                },
+                "5": {
+                  "title": "Browserify",
+                  "id": 43
+                },
+                "6": {
+                  "title": "Require.js/AMD",
+                  "id": 44
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "collapsed": true,
+        "style": {}
+      }
+    },
+    "-1": {
+      "title": "How the Internet works",
+      "id": 10,
+      "ideas": {
+        "1": {
+          "title": "Client/Frontend",
+          "id": 12
+        },
+        "2": {
+          "title": "Backend/Server",
+          "id": 14
+        },
+        "3": {
+          "title": "Database",
+          "id": 16
+        }
+      },
+      "attr": {
+        "collapsed": true,
+        "style": {}
+      }
+    },
+    "-2": {
+      "title": "Back End",
+      "id": 45,
+      "ideas": {
+        "1": {
+          "title": "Unit/Functional Testing for Chosen Technology",
+          "id": 46
+        },
+        "2": {
+          "title": ".net (C#)",
+          "id": 47
+        },
+        "3": {
+          "title": "Python/Django",
+          "id": 48
+        },
+        "4": {
+          "title": "PHP",
+          "id": 49
+        },
+        "5": {
+          "title": "Node.js (Javascript / Express.js)",
+          "id": 50
+        },
+        "6": {
+          "title": "Ruby On Rails (Ruby)",
+          "id": 51
+        },
+        "7": {
+          "title": "Databases",
+          "id": 53,
+          "ideas": {
+            "2": {
+              "title": "MongoDB",
+              "id": 58
+            },
+            "3": {
+              "title": "Redis",
+              "id": 59
+            },
+            "4": {
+              "title": "MySql",
+              "id": 60
+            },
+            "5": {
+              "title": "Caching",
+              "id": 61,
+              "ideas": {
+                "1": {
+                  "title": "Squid",
+                  "id": 62
+                },
+                "2": {
+                  "title": "Memcached",
+                  "id": 63
+                },
+                "3": {
+                  "title": "Nginx",
+                  "id": 65
+                },
+                "4": {
+                  "title": "Varnish",
+                  "id": 66
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
+        },
+        "8": {
+          "title": "Things to Learn",
+          "id": 55,
+          "ideas": {
+            "1": {
+              "title": "API's / RESTful Services",
+              "id": 67
+            },
+            "2": {
+              "title": "Security",
+              "id": 68
+            },
+            "3": {
+              "title": "OATH 2",
+              "id": 69
+            },
+            "4": {
+              "title": "Authorization/Authentication",
+              "id": 70
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
+        },
+        "9": {
+          "title": "Dev Ops",
+          "id": 56,
+          "ideas": {
+            "1": {
+              "title": "Web Platforms",
+              "id": 71,
+              "ideas": {
+                "1": {
+                  "title": "Build Your Own Datacenter",
+                  "id": 72
+                },
+                "2": {
+                  "title": "Rackspace",
+                  "id": 73
+                },
+                "3": {
+                  "title": "Amazon Web Services",
+                  "id": 74
+                },
+                "4": {
+                  "title": "Heroku",
+                  "id": 75
+                },
+                "5": {
+                  "title": "Azure",
+                  "id": 76
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "Server Management",
+              "id": 77,
+              "ideas": {
+                "1": {
+                  "title": "Salt",
+                  "id": 78
+                },
+                "2": {
+                  "title": "Puppet",
+                  "id": 79
+                },
+                "3": {
+                  "title": "Chef",
+                  "id": 80
+                },
+                "4": {
+                  "title": "Ansible",
+                  "id": 81
+                },
+                "5": {
+                  "title": "Linux",
+                  "id": 82
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "Dev Ops Workflows",
+              "id": 83,
+              "ideas": {
+                "1": {
+                  "title": "Vagrant (local environment developmet)",
+                  "id": 84,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "Capistrano (deployment)",
+                  "id": 87
+                },
+                "3": {
+                  "title": "Deployment Strategies",
+                  "id": 88
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
+        }
+      },
+      "attr": {
+        "collapsed": true,
+        "style": {}
+      }
+    }
+  },
+  "links": []
+}
